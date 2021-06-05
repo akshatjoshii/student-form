@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="content">
+        <form action="" class="student-form" id="student-form" name="studentForm">
+            <div>
+                <input type="text" name="firstName" id="first-name" placeholder="First Name" required>
+            </div>
+            <div>
+                <input type="text" name="lastName" id="last-name" placeholder="Last Name" required>
+            </div>
+            <div>
+                <input type="number" name="age" id="age" placeholder="Age" required>
+            </div>
+            <div>
+                <input type="text" name="college" id="college" placeholder="College Name" required>
+            </div>
+            <div>
+                <input type="text" name="stream" id="stream" placeholder="Steam" required>
+            </div>
+            <button id="submit-button">
+                Submit
+            </button>
+        </form>
+        <div class="rendered-content">
+            <div class="list" id="list">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="./js/app.js"></script>
+</body>
+</html>
